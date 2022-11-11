@@ -4,7 +4,8 @@
 
 # to get started
 run 
->npm i and you should be good to go. 
+>npm install
+and you should be good to go. 
 
 # Template layout
 <img width="1226" alt="Template Form" src="https://user-images.githubusercontent.com/89155031/201392508-190600ee-4517-4e19-8fea-dc7364a24dd7.png">
