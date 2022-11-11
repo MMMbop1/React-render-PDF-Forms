@@ -29,15 +29,16 @@ export const FormExperience = () => {
         {submit === -1 ?
         <div className="form">
         <form onSubmit={addEducation}>
+            <div className="input-button-container">
             <div className='input-container'>
                 {display.map(val => <EducationInput key={val} id={val}/>)}
+        <div className="button-container">
+            <button type="submit" className="button button-experience">Add</button>
+            <button type="button" className="button" onClick={handleSubmit}>Submit</button>
+        </div>
             </div>
-            <div className="button-container">
-                <button type="submit" className="button button-experience">Add Education</button>
-                <button type="button" className="button" onClick={handleSubmit}>Submit</button>
             </div>
         </form>
-        <div id="education-text-container"></div>
         </div>
         :
         <FormWorkExperience/>

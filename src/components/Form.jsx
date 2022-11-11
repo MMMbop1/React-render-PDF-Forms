@@ -35,6 +35,7 @@ export const Form = () => {
         <div className="form">
         <form onSubmit={handleSubmit}>
             <div className="input-button-container">
+            <h1>Create your own CV-template</h1>
              <Input/>
              <Button/>
             </div>

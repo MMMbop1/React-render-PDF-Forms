@@ -28,15 +28,16 @@ export const FormSkills = () => {
         {submit === -1 ?
         <div className="form">
         <form onSubmit={addEducation}>
+            <div className="input-button-container">
             <div className='input-container'>
                 {display.map(val => <SkillsInput key={val} id={val}/>)}
-            </div>
             <div className="button-container">
-                <button type="submit" className="button button-experience">Add Skill</button>
+                <button type="submit" className="button button-experience">Add</button>
                 <button type="button" className="button" onClick={handleSubmit}>Submit</button>
             </div>
+            </div>
+            </div>
         </form>
-        <div id="education-text-container"></div>
         </div>
         :
         <FormContact/>

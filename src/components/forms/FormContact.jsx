@@ -1,4 +1,4 @@
-import { useState, useContext, createContext } from "react";
+import { useState, useContext } from "react";
 import { DataContext } from "../Form";
 import { InputContact } from "../formComponents/InputContact";
 import { Button } from "../formComponents/Button";
@@ -24,6 +24,7 @@ export const FormContact = () => {
         <>
         {submit === -1 ? 
         <div className="form">
+        <h1>Create your own CV-template</h1>
         <form onSubmit={handleSubmit}>
             <div className="input-button-container">
              <InputContact/>
