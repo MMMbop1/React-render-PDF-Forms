@@ -1,0 +1,9 @@
+.form {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.input-button-container {
+    flex-direction: column;
+}
