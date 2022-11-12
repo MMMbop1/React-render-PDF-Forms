@@ -3,9 +3,10 @@
 ## This is a little project generating CV from a template. Feel free to use.
 
 ### to get started
-run 
+run
 >npm install
 to download and install packages and then
+
 >npm start
 to start the application in your browser
 
